@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DRRValidator_Example', :exclusive => true do
+  pod "DRRValidator", :path => "../"
+end
+
+target 'DRRValidator_Tests', :exclusive => true do
+  pod "DRRValidator", :path => "../"
+
+  
+end
